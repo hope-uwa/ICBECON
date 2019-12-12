@@ -1,0 +1,33 @@
+.countdown-box {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 0;
+
+    .container {
+        min-width: 100vw;
+        background: rgba(160, 32, 32, 0.3);
+        color: #fff;
+
+        .row {
+            padding-top: 70px;
+            padding-bottom: 70px;
+
+            h4 {
+                font-size: 25px;
+            }
+
+            h2 {
+                font-size: 50px;
+            }
+        }
+    }
+}
+
+
+.odometer-block {
+    .year, .month, .day, .hour, .min, .sec {
+        margin-right: -10px;
+        font-size: 70px;
+    }
+}
