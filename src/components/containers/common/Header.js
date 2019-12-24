@@ -1,15 +1,15 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom';
 
 
-
-const Header = () => {
-
+const Header = (props) => {
+    const { history } = props;
 
     return(
         <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top main-header">
                 <a className="navbar-brand" href="/">
-                    <img src="./img/logo.png" alt="" />
+                    <img src="./img/logo.png" alt="" onClick={()=> history.push('/')} />
                 </a>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,29 +22,28 @@ const Header = () => {
 
                     <ul className="navbar-nav my-2 my-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="#home">Home</a>
+                            <span className="nav-link" onClick={()=> history.push('/')}>Home</span>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">About</a>
+                            <span onClick={()=> history.push('about-conference')} className="nav-link" href="#about">About</span>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#speakers">Speakers</a>
+                            <a onClick={()=> history.push('speakers')} className="nav-link">Speakers</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#sponsors">Sponsors</a>
+                            <a onClick={()=> history.push('/')} className="nav-link" href="#conference-sponsors">Sponsors</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/publications">Publications</a>
+                            <a onClick={()=> history.push('/')} className="nav-link" href="#committee">Committee</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#news">News</a>
+                            <a onClick={()=> history.push('/')} className="nav-link" >Publications</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact">Contact</a>
+                            <a onClick={()=> history.push('/')} className="nav-link" >News</a>
                         </li>
-                        
                         <li className="nav-item">
-                            <button className="btn btn-danger">Register</button>
+                            <a onClick={()=> history.push('/')} className="nav-link">Contact</a>
                         </li>
                     </ul>
                     
@@ -56,4 +55,4 @@ const Header = () => {
 }
 
 
-export default Header
+export default withRouter(Header)
