@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8438f2b006d96b4bedb0222a0626efdb",
+    "revision": "0b48dbad0f71ba4368ab6078cfda79f2",
     "url": "/ICBECON/index.html"
   },
   {
-    "revision": "3e57cbe0735029ffa635",
+    "revision": "2712347183d3d5314ad5",
     "url": "/ICBECON/static/css/2.0fe53a39.chunk.css"
   },
   {
-    "revision": "0f950219fc3010e7e282",
+    "revision": "a12d96a097f113215fe5",
     "url": "/ICBECON/static/css/main.80e9dff8.chunk.css"
   },
   {
-    "revision": "3e57cbe0735029ffa635",
-    "url": "/ICBECON/static/js/2.93dc7db0.chunk.js"
+    "revision": "2712347183d3d5314ad5",
+    "url": "/ICBECON/static/js/2.d77fe9d0.chunk.js"
   },
   {
-    "revision": "0f950219fc3010e7e282",
-    "url": "/ICBECON/static/js/main.15fadcad.chunk.js"
+    "revision": "a12d96a097f113215fe5",
+    "url": "/ICBECON/static/js/main.09c09158.chunk.js"
   },
   {
     "revision": "06af799f60aa25ec2bba",
@@ -42,5 +42,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/ICBECON/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "851092b1c5fe058c932be8e2749c9f4c",
+    "url": "/ICBECON/static/media/slider02.851092b1.jpg"
+  },
+  {
+    "revision": "02a413d928317e6310616f5c216551a7",
+    "url": "/ICBECON/static/media/slider03.02a413d9.jpg"
   }
 ]);

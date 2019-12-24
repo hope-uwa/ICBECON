@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/ICBECON/static/css/main.80e9dff8.chunk.css",
-    "main.js": "/ICBECON/static/js/main.15fadcad.chunk.js",
-    "main.js.map": "/ICBECON/static/js/main.15fadcad.chunk.js.map",
+    "main.js": "/ICBECON/static/js/main.09c09158.chunk.js",
+    "main.js.map": "/ICBECON/static/js/main.09c09158.chunk.js.map",
     "runtime~main.js": "/ICBECON/static/js/runtime~main.6ecaa337.js",
     "runtime~main.js.map": "/ICBECON/static/js/runtime~main.6ecaa337.js.map",
     "static/css/2.0fe53a39.chunk.css": "/ICBECON/static/css/2.0fe53a39.chunk.css",
-    "static/js/2.93dc7db0.chunk.js": "/ICBECON/static/js/2.93dc7db0.chunk.js",
-    "static/js/2.93dc7db0.chunk.js.map": "/ICBECON/static/js/2.93dc7db0.chunk.js.map",
+    "static/js/2.d77fe9d0.chunk.js": "/ICBECON/static/js/2.d77fe9d0.chunk.js",
+    "static/js/2.d77fe9d0.chunk.js.map": "/ICBECON/static/js/2.d77fe9d0.chunk.js.map",
     "index.html": "/ICBECON/index.html",
-    "precache-manifest.b1cd582c86169c85f727d413c84ef414.js": "/ICBECON/precache-manifest.b1cd582c86169c85f727d413c84ef414.js",
+    "precache-manifest.d4365e78b518b37e487939b58c2236b2.js": "/ICBECON/precache-manifest.d4365e78b518b37e487939b58c2236b2.js",
     "service-worker.js": "/ICBECON/service-worker.js",
     "static/css/2.0fe53a39.chunk.css.map": "/ICBECON/static/css/2.0fe53a39.chunk.css.map",
     "static/css/main.80e9dff8.chunk.css.map": "/ICBECON/static/css/main.80e9dff8.chunk.css.map",
     "static/media/key-speaker.jpeg": "/ICBECON/static/media/key-speaker.49644ea7.jpeg",
-    "static/media/slick-theme.css": "/ICBECON/static/media/slick.f97e3bbf.svg"
+    "static/media/slick-theme.css": "/ICBECON/static/media/slick.f97e3bbf.svg",
+    "static/media/slider02.jpg": "/ICBECON/static/media/slider02.851092b1.jpg",
+    "static/media/slider03.jpg": "/ICBECON/static/media/slider03.02a413d9.jpg"
   }
 }
