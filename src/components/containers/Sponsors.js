@@ -1,16 +1,11 @@
 import React from 'react'
+import niob from '../../assets/niob.jpeg'
+const Sponsors = () => {
 
-
-
-class Sponsors extends React.Component {
-
-    render () {
         return(
             <React.Fragment>
-
-
                 
-                <div className="modal fade" id="become-partner" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                {/* <div className="modal fade" id="become-partner" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                     <div className="modal-header">
@@ -28,61 +23,35 @@ class Sponsors extends React.Component {
                     </div>
                     </div>
                 </div>
-                </div>
+                </div> */}
 
 
 
-                <div className="container-fluid sponsors" id="sponsors" style={{backgroundImage:"url(./img/about_bg.jpg"}}>
+                <div className="container-fluid sponsors" id="conference-sponsors" style={{ background: '#ff00000a'}}>
                     <div className="container">
 
-                    <div className="row text-center">
-
+                    <div className="row heading-title text-center">
                         <h2>Our Sponsors &amp; Partners</h2>
-
                     </div>
 
-
-
                         <div className="row sponsors-area text-center">
-
                             <div className="col-md-3 sponsors-item">
-                                <img src="./img/brand/brand1.png" alt="" />
-                            </div>
-
-                            <div className="col-md-3 sponsors-item">
-                                <img src="./img/brand/brand2.png" alt="" />
-                            </div>
-
-                            <div className="col-md-3 sponsors-item">
-                                <img src="./img/brand/brand3.png" alt="" />
-                            </div>
-
-                            <div className="col-md-3 sponsors-item">
-                                <img src="./img/brand/brand4.png" alt="" />
-                            </div>
-
-                            <div className="col-md-3 sponsors-item">
-                                <img src="./img/brand/brand5.png" alt="" />
-                            </div>
-
-                            <div className="col-md-3 sponsors-item">
-                                <img src="./img/brand/brand6.png" alt="" />
+                                <img src={niob} alt="" />
                             </div>
 
                         </div>
 
-                        <div className="row text-center">
+                        {/* <div className="row text-center">
                             <div className="col-md-12">
                                 <button type="button" className="btn btn-outline-danger" data-toggle="modal" data-target="#become-partner">Become a Sponsor/Partner</button>
                             </div>
                            
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>
             </React.Fragment>
         )
-    }
 
 }
 

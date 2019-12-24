@@ -12,7 +12,11 @@ import './css/main.css'
 
 
 import reducers from './reducers/'
+import Header from './components/containers/common/Header'
+import Footer from './components/containers/common/Footer'
 import Home from './components/Home/'
+import About from './components/About/'
+import Speaker from './components/Speaker/'
 
 
 const store = createStore(
@@ -25,9 +29,13 @@ ReactDOM.render(
     <Provider store={store}>
          <BrowserRouter>
                 <div>
+                <Header/>
                     <Switch>
-                        <Route path="/" component={Home} />
+                        <Route exact path="/" component={Home} />
+                        <Route path="/about-conference" component={About} />
+                        <Route path="/speakers" component={Speaker} />
                     </Switch>
+                <Footer/>
                 </div>
             </BrowserRouter>
     </Provider>

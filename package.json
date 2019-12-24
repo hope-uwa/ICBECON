@@ -7,11 +7,14 @@
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
   },
+  "homepage": "http://hope-uwa.github.io/ICBECON",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,6 +40,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
     "firebase": "^6.6.1",
+    "gh-pages": "^2.1.1",
     "rdux": "^0.1.5",
     "react-bootstrap": "^1.0.0-beta.12",
     "react-date-countdown-timer": "^1.0.3",
