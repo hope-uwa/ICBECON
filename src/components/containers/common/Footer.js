@@ -12,7 +12,7 @@ const Footer = (props) => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4 col-sm-12">
-                    <div class="footer-about">
+                    <div className="footer-about">
                        
                         <h2 style={{color: '#be2b65'}}>ICBECONF 2020</h2>
                         <p>International Construction and Built Environment Conference</p>
@@ -27,17 +27,17 @@ const Footer = (props) => {
 
                     </div>
                     <div className="col-md-4 col-sm-12">
-                        <div class="footer-pages">
+                        <div className="footer-pages">
                             <h3>Usefull Links</h3>
-                            <div class="row">
-                                <div class="col-sm-12">
+                            <div className="row">
+                                <div className="col-sm-12">
                                 <ul>
                                     <li><a onClick={()=> history.push('about-conference')} href="javascript::" >About Conference </a></li>
                                    
                                     <li><a onClick={()=> history.push('/')} href="#committee"> Commitee Members.</a></li>
                                     <li><a onClick={()=> history.push('/speakers')} href="javascript::"> Speakers</a></li>
                                     <li><a onClick={()=> history.push('/abstract-submission')} href="javascript::"> Submit Abstract</a></li>
-                                    <li><a href="#"><i class="fa fa-chevron-right"></i> Contact Us</a></li>
+                                    <li><a href="#"><i className="fa fa-chevron-right"></i> Contact Us</a></li>
                                 </ul>
                                 </div>
                             </div>
