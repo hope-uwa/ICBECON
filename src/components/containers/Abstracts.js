@@ -1,6 +1,6 @@
 import React from 'react'
 import paper from '../../assets/paper.png'
-import { checkPropTypes } from 'prop-types'
+//import { checkPropTypes } from 'prop-types'
 
 
 

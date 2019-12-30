@@ -5,7 +5,7 @@ const Schedule = (props) => {
     const [ day, setDay ] = useState(1)
     return(
         <section >
-         <div className="container" className="schedule">
+         <div className="container schedule">
             <div className="row">
                <div className="col-md-12">
                   <div className="heading-title text-center">

@@ -5,7 +5,7 @@ import { withRouter } from 'react-router-dom'
 class Speakers extends React.Component {
 
     render () {
-        const { noTitle, history } = this.props
+        const { noTitle } = this.props
         return(
             <React.Fragment>
 

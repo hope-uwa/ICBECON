@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../../assets/about2.png'
+//import aboutImg from '../../assets/about2.png'
 
 
 

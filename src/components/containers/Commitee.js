@@ -9,7 +9,7 @@ import {
     folorunsho,
     oladiran,
     olumide,
-    segun,
+    //segun,
     sotunbo,
     zakariyah
 } from '../../assets/committee'
