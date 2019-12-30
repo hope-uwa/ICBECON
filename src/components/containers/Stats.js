@@ -10,13 +10,13 @@ class Stats extends React.Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-2 offset-md-3 text-center">
-                                <h2>12</h2>
-                                <h4>Speakers</h4>
+                                <h2>1</h2>
+                                <h4>Speaker</h4>
                             </div>
 
                             <div className="col-md-2 text-center">
-                                <h2>8</h2>
-                                <h4>Hours</h4>
+                                <h2>2</h2>
+                                <h4>Days</h4>
                             </div>
 
                             <div className="col-md-2 text-center">

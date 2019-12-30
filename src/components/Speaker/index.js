@@ -86,7 +86,7 @@ const SpeakerPage = () => {
 
     return(
       <React.Fragment>
-            <BreadCrumbs title={'Speaker'} />
+            <BreadCrumbs title={'Speakers'} />
             <section id="schedule" className="schedule">
          <div className="container">
             <div className="row">

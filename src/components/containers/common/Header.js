@@ -36,14 +36,18 @@ const Header = (props) => {
                         <li className="nav-item">
                             <a onClick={()=> history.push('/')} className="nav-link" href="#committee">Committee</a>
                         </li>
-                        <li className="nav-item">
+                       
+                        {/* <li className="nav-item">
                             <a onClick={()=> history.push('/')} className="nav-link" >Publications</a>
                         </li>
                         <li className="nav-item">
                             <a onClick={()=> history.push('/')} className="nav-link" >News</a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <a onClick={()=> history.push('/')} className="nav-link">Contact</a>
+                        </li>
+                        <li className="nav-item">
+                            <a onClick={()=> history.push('/abstract-submission')} className="nav-link">Submit Abstract</a>
                         </li>
                     </ul>
                     

@@ -55,7 +55,7 @@ const topics = [
     'Whole Building Design Approach',
     'Zero-Net Energy Homes'
 ]
-const AboutPage = () => {
+const AboutPage = (props) => {
 
     useEffect(() => {
         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -72,15 +72,25 @@ const AboutPage = () => {
                         <div className="about-text">
                            
                             
-                            <h2>Aim</h2>
-                            <p>The Conference & Expo is aimed at bringing together hundreds of building industry professionals, researchers and experts from academia to explore strategies aimed at Optimized solutions for both the present and the future. </p>
+                            <h2><strong>Theme: </strong> Innovation, Sustainability and Transformation in the Built Environment </h2>
+                            <p>We are delighted to bring to your notice the maiden edition of the annual International Construction and Built 
+                            Environment Conference, with the theme Innovation, Sustainability and Transformation in the Built Environment, 
+                            taking place in Lagos, Nigeria on the <strong>20th to 21st of May, 2020.</strong> It will feature Conference and Expo on Built 
+                            Environment issues. </p>
+                            <p>Our keenly designed agenda by the committee members and professionals will feature 
+                            presentations on relevant topics. It will also be a forum for construction organizations, manufacturers 
+                            and service providers to present and bring to fore their products, thereby stimulating patronages, 
+                            collaborations and global partnering among participants and stakeholders during and after the event. 
+                            </p>
+                            <p>The international panel of keynote speakers and presenters will facilitate engaging discussions and learning 
+                            opportunities. This will be an unmatched opportunity to interact and learn from researchers, practitioners, 
+                            business moguls, developers, students and scholars around the globe to bring solutions to built environment 
+                            problems. It is imperative to make your contribution to the event by joining discussions and disseminating your 
+                            research findings. This year’s conference and expo aims to promote sustainability, innovation and transformation 
+                            in the built environment at global level. Abstracts are welcome from the following topics, but not limited to them:
 
-                            <h2>Participants</h2>
-                            <p>Construction industry professionals (Architects, Builders, Estate Surveyors, QS) and 
-                                experts from academia, consulting and construction firms, construction materials manufacturers 
-                                and merchants, Developers, Government Ministries and Agencies are cordially invited to submit 
-                                abstracts by June 15, 2019 on all aspects of built environment innovations, sustainability and 
-                                transformation, including but not limited to the following topics: </p>
+                            </p>
+                           
                             <ul>
                             {
                                 topics.map((topic, index) => 
@@ -88,46 +98,56 @@ const AboutPage = () => {
                                 )}
                             </ul>
                             
-                            <p>Authors of accepted abstracts will submit their full papers for review and comments 
-                                by the International Scientific Committee for inclusion in the Conference Proceedings. 
-                                The Conference Proceedings will be an edited document and will require the authors of 
-                                the papers to transfer copyright to the LOC for its publication with an ISBN number. 
-                                In addition, selected papers of high quality would be further reviewed for acceptance 
-                                and possible publication in a book of readings.</p>
+                            <div id='abstract' className='abstract-container' >
+                                <h2>Abstracts Submission</h2>
+                                    <p>
+                                        Authors are invited to submit 200-300-word abstracts to the International Construction 
+                                        and Built Environment Conference (ICBECONF 2020), with the theme Innovation, Sustainability 
+                                        and Transformation in the Built Environment, taking place in Lagos, 
+                                        Nigeria on the <strong>20th to 21st of May, 2020.</strong>
+                                        Authors should indicate the topic area from technical paper session topics appropriate for their paper.
 
-                            <p> By June 15, 2019, submit abstracts through EasyChair conference
-                                management software:</p>
-                                <a href='https://easychair.org/conferences/?conf=2020building'> EASY CHAIR ABSTRACT SUBMISSION </a>
-                            <p>For any submission questions, authors may contact Conference Secretariat:
+                                    </p>
 
-                                abc@unilag.edu.ng, <br/>
-                                +234 80500000, <br/> 
-                                +234 80950000, <br/>
-                                Department of Building, <br/>
-                                Faculty of Environmental Sciences, <br/>
-                                University of Lagos, <br/>
-                                www.abcd.edu.ng
-                            </p>
+                                    <p> Submit abstracts Here
+                                        <a style={{color: '#be2b65', display: 'inline', cursor: 'pointer'}} onClick={()=> props.history.push('/abstract-submission')}> ABSTRACT SUBMISSION </a>
+                                    </p>
+                                    <p>For any submission questions, authors may contact Conference Secretariat:
 
-                            <h2>Submission Dates</h2>
-                            <p>Authors are invited to submit 200-300-word abstracts and indicate the topic area from technical paper session topics appropriate for their paper.</p>
-                            <ul>
-                                <li>
-                                    Abstract Submission Deadline: <strong>July 15, 2019</strong>J
-                                </li>
-                                <li>
-                                    Full Paper Submission Deadline: <strong> October 28, 2019</strong>
-                                </li>
-                                <li>
-                                    Full Paper Acceptance and Review Comments Notification: <strong>December 7, 2019</strong>
-                                </li>
-                                <li>
-                                    Camera-Ready Final Full Paper Deadline for Inclusion in the Proceedings: <strong>February 27, 2020</strong>
-                                </li>
-                            </ul>
-                           <p>
-                           At the conference, all presenters will have 20-30 minutes for a PowerPoint presentation on their paper and must bring their presentation to the conference on a USB flash drive.
-                           </p>
+                                        abc@unilag.edu.ng, <br/>
+                                        +234 80500000, <br/> 
+                                        +234 80950000, <br/>
+                                        Department of Building, <br/>
+                                        Faculty of Environmental Sciences, <br/>
+                                        University of Lagos, <br/>
+                                        info@icbeconf.com
+                                    </p>
+
+                                    <h2>Submission Deadlines</h2>
+                                    
+                                    <ul>
+                                        <li>
+                                            Abstract Submission Deadline: <strong>January 30, 2020</strong>
+                                        </li>
+                                        <li>
+                                            Abstract Acceptance Notification: <strong>February 30, 2020</strong>
+                                        </li>
+                                        <li>
+                                            Full Paper Submission Deadline: <strong> March 28, 2020</strong>
+                                        </li>
+                                        <li>
+                                            Full Paper Acceptance and Review Comments Notification: <strong>April 30, 2020</strong>
+                                        </li>
+                                        <li>
+                                            Camera-Ready Final Full Paper Deadline for Inclusion in the Proceedings: <strong>May 15, 2020</strong>
+                                        </li>
+                                    </ul>
+                                <p>
+                                At the conference, all presenters will have 20-30 minutes for a PowerPoint presentation on their paper and must bring their presentation to the conference on a USB flash drive.
+                                </p>
+
+                            </div>
+                           
                         </div>
                     </div>
 

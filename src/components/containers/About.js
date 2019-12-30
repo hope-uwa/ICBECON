@@ -6,12 +6,12 @@ import aboutImg from '../../assets/about2.png'
 const About = (props) => {
     return(
         <React.Fragment>
-            <div className="container-fluid about" id="about" style={{backgroundImage:"url('./img/about_bg.jpg')"}}>
+            <div className="container-fluid about about-section" id="about">
                 <div className="container">
                     <div className="row">
 
-                        <div className="col-md-4 offset-md-1">
-                            <div className="col-12 about-back-spin" style={{backgroundImage:`url(${aboutImg})`}}></div>
+                        <div className="col-md-4 offset-md-1 about-info">
+                            <div className="col-12 about-back-spin"></div>
                             <div className="col-12 about-back-img" >
                                 <div className='about-back-text'>
                                  20th & 21st <span> May 2020</span> <br/>

@@ -1,30 +1,43 @@
 import React from 'react'
 import User from '../../assets/default-user-image.png';
+import {
+    ajayi,
+    akinkunmi,
+    dada,
+    dele,
+    faremi,
+    folorunsho,
+    oladiran,
+    olumide,
+    segun,
+    sotunbo,
+    zakariyah
+} from '../../assets/committee'
 
 const committee = [
-    { name: 'Prof. Matin O. Dada', position: 'Member/Adviser'},
-    { name: 'Dr. Olatunji J. Oladiran', position: 'Conference Chairman'},
-    { name: 'Dr. Julius O. Faremi', position: 'Conference Secretary' }, 
-    { name: 'Dr Oluranti O. Ajayi', position: ' Committee Member' },
-    { name: 'Dr Kudirat I. Zakarriyah',	position: 'Committee Member'},
-    { name: 'Dr Adegboyega S. Sotunbo', position: 'Committee Member'},
-    { name: 'Mr. Olutayo A. Akinkunmi', position: 'Committee Member'},
-    { name: 'Mr. Tunde A. Folorunso', position: 'Committee Member'},
-    { name: 'Mr Aderemi M. Aderogba', position: 'Committee Member'},
-    { name: 'Mr Ganiu. T. Aregbesola', position: 'Committee Member'},
-    { name: 'Mr Dele Simeon', position: 'Committee Member'},
-    { name: 'Mr Tijani', position: 'Committee Member'},
+    { name: 'Prof. Matin O. Dada', position: 'Member/Adviser',  image: dada},
+    { name: 'Dr. Olatunji J. Oladiran', position: 'Conference Chairman', image: oladiran},
+    { name: 'Dr. Julius O. Faremi', position: 'Conference Secretary', image: faremi }, 
+    { name: 'Dr Oluranti O. Ajayi', position: ' Committee Member', image: ajayi },
+    { name: 'Dr Kudirat I. Zakarriyah',	position: 'Committee Member', image: zakariyah},
+    { name: 'Mr Adegboyega S. Sotunbo', position: 'Committee Member', image: sotunbo},
+    { name: 'Mr. Olutayo A. Akinkunmi', position: 'Committee Member', image: akinkunmi },
+    { name: 'Mr. Tunde A. Folorunso', position: 'Committee Member', image: folorunsho},
+    { name: 'Mr Aderemi M. Aderogba', position: 'Committee Member', image: '' },
+    { name: 'Mr Ganiu. T. Aregbesola', position: 'Committee Member', image: ''},
+    { name: 'Mr Dele Simeon', position: 'Committee Member', image: dele},
+    { name: 'Mr Tijani', position: 'Committee Member', image: ''},
 ]
 const technicalCommittee = [
-    { name: 'Prof Koleola T. Odusami', institution:	'University of Lagos, Nigeria' },
-    { name: 'Prof Godwin I. Idoro', institution:	'University of Lagos, Nigeria' },
-    { name : 'Prof Olumide A. Adenuga', institution:	'University of Lagos, Nigeria' },
-    { name: 'Prof O. Sunday Oyediran', institution:	'University of Lagos, Nigeria' },
-    { name: 'Prof Matin O. Dada', institution:	'University of Lagos, Nigeria' },
-    { name: 'Prof Olabode E. Ogunsanmi'	, institution:	'University of Lagos, Nigeria' },
-    { name: 'Dr. John Ameh'	, institution:	'University of Lagos, Nigeria' },
-    { name: 'Dr Olalekan S. Oshodi', institution: 'Anglia Ruskin University, Chelmsford, UK'},
-    { name: 'Dr Majeed Oladokun.', institution: '' }
+    { name: 'Prof Koleola T. Odusami', institution:	'University of Lagos, Nigeria', image: '' },
+    { name: 'Prof Godwin I. Idoro', institution:	'University of Lagos, Nigeria', image: '' },
+    { name : 'Prof Olumide A. Adenuga', institution:	'University of Lagos, Nigeria', image: olumide },
+    { name: 'Prof O. Sunday Oyediran', institution:	'University of Lagos, Nigeria', image:'' },
+    { name: 'Prof Matin O. Dada', institution:	'University of Lagos, Nigeria', image: '' },
+    { name: 'Prof Olabode E. Ogunsanmi'	, institution:	'University of Lagos, Nigeria', image: '' },
+    { name: 'Dr. John Ameh'	, institution:	'University of Lagos, Nigeria', image: '' },
+    { name: 'Dr Olalekan S. Oshodi', institution: 'Anglia Ruskin University, Chelmsford, UK', image: ''},
+    { name: 'Dr Majeed Oladokun.', institution: '', image: '' }
 ]        
 
 
@@ -45,7 +58,7 @@ const Committee = () => {
                             {/* speakers item */}
                            { committee.map((member, index)=> (
                                <div key={`${index}`} className="col-md-3 speakers-item">
-                                <div className="col-12 speakers-img" style={{backgroundImage:`url(${User})`}}>
+                                <div className="col-12 speakers-img" style={{backgroundImage:`url(${member.image || User})`}}>
                                    
                                 </div>
                                 <div className="col-12 speakers-info">
@@ -57,7 +70,7 @@ const Committee = () => {
 
                             { technicalCommittee.map((member, index)=> (
                                <div key={`${member.name.split(' ')[0]}-${index}`} className="col-md-3 speakers-item">
-                                <div className="col-12 speakers-img" style={{backgroundImage:`url(${User})`}}>
+                                <div className="col-12 speakers-img" style={{backgroundImage:`url(${member.image || User})`}}>
                                     
                                 </div>
                                 <div className="col-12 speakers-info">

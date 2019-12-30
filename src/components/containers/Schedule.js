@@ -25,10 +25,10 @@ const Schedule = (props) => {
                   <div className="tab-bar">
                      <ul className="nav nav-tabs">
                         <li className="nav-item">
-                           <span onClick={()=>setDay(1)} className="nav-link active" data-toggle="tab" href="index_03.html#day1">DAY 01<br/><span>08/11/2018</span></span>
+                           <span onClick={()=>setDay(1)} className="nav-link active" data-toggle="tab" href="index_03.html#day1">DAY 01<br/><span>20/05/2020</span></span>
                         </li>
                         <li className="nav-item">
-                           <span onClick={()=>setDay(2)} className="nav-link" data-toggle="tab" href="index_03.html#day2">DAY 02<br/><span>09/11/2018</span></span>
+                           <span onClick={()=>setDay(2)} className="nav-link" data-toggle="tab" href="index_03.html#day2">DAY 02<br/><span>21/05/2020</span></span>
                         </li>
                      </ul>
                      <div className="tab-content">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom'
 import breadCrumbImg from '../../../assets/slider03.jpg';
 
 
@@ -11,9 +12,9 @@ const BreadCrumb = (props) => {
                   <div className="col-12 text-center">
                     <h2>{props.title}</h2>
                      <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href='javascript::' onClick={()=> props.history.push('/')}>Home</a></li>
                         <li><i className="fa fa-angle-double-right"></i></li>
-                        <li><a className="active" href="about.html#">{props.title}</a></li>
+                        <li><a href='javascript::' className="active">{props.title}</a></li>
                      </ul>
                   </div>
                </div>
@@ -22,4 +23,4 @@ const BreadCrumb = (props) => {
     )
 }
 
-export default BreadCrumb;
+export default withRouter(BreadCrumb);

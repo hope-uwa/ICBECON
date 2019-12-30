@@ -5,7 +5,8 @@ import React from 'react'
 import Carousel from '../containers/Carousel'
 import Banner from './HomeBanner'
 import Countdown from '../containers/Countdown'
-import About from '../containers/About'
+import About from '../containers/About';
+import Abstract from '../containers/Abstracts'
 import Stats from '../containers/Stats'
 import Speakers from '../containers/Speakers'
 import Sponsors from '../containers/Sponsors'
@@ -25,13 +26,14 @@ class Home extends React.Component {
             <React.Fragment>
                 <Banner/>
                 <About history={history} />
+                <Abstract history={history} />
                 {/* <Carousel /> */}
                 <Countdown />
                 <Speakers />
                 <Stats />
                 <Committee />
                 <Sponsors />
-                <Schedule/>
+                {/* <Schedule/> */}
             </React.Fragment>
         )
     }

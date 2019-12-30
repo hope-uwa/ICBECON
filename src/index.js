@@ -17,6 +17,7 @@ import Footer from './components/containers/common/Footer'
 import Home from './components/Home/'
 import About from './components/About/'
 import Speaker from './components/Speaker/'
+import Abstract from './components/Abstract';
 
 
 const store = createStore(
@@ -34,6 +35,7 @@ ReactDOM.render(
                         <Route exact path="/" component={Home} />
                         <Route path="/about-conference" component={About} />
                         <Route path="/speakers" component={Speaker} />
+                        <Route path="/abstract-submission" component={Abstract} />
                     </Switch>
                 <Footer/>
                 </div>
