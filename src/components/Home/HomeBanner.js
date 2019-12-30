@@ -1,7 +1,7 @@
 import React from 'react';
-import RegisterModal from '../containers/Register'
+//import RegisterModal from '../containers/Register'
 import RegistrationInfo from '../containers/RegistrationInfoModal'
-import bannerImg from '../../assets/slider02.jpg'
+//import bannerImg from '../../assets/slider02.jpg'
 import senate from '../../assets/slider01.jpg'
 const Banner = () => {
     
