@@ -10,7 +10,7 @@ class Speakers extends React.Component {
             <React.Fragment>
 
 
-                <div className="modal fade bd-example-modal-lg" id="speakerNote" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                <div className="modal fade bd-example-modal-lg" id="speakerNote" tabIndex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-scrollable modal-lg speakers-note" role="document">
                     <div className="modal-content"  style={{backgroundImage:"url('./img/about_bg.jpg')"}}>
                     <div className="modal-header">
