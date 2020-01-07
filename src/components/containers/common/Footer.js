@@ -48,22 +48,22 @@ const Footer = (props) => {
                             <ul>
                                 <li>
                                 <div className="round-icn">	<FontAwesomeIcon icon={faLocationArrow}/></div>
-                                <a href="index_03.html#">
+                                <a href="javascript::">
                                 Building Department <br/>
                                 Faculty of Environmental Science</a>
                                 </li>
                                 <li>
                                 <div className="round-icn"><FontAwesomeIcon icon={faEnvelope}/></div>
-                                <a href="index_03.html#">
+                                <a href="javascript::#">
                                 info@icbeconf.com <br/>
                                 info@icbeconf.com
                                 </a>
                                 </li>
                                 <li>
                                 <div className="round-icn">	<FontAwesomeIcon icon={faPhone}/></div>
-                                <a href="index_03.html#">
-                                +234 456-7890-345<br/>
-                                +234 456-7890-345
+                                <a href="javascript::">
+                                +234 805-705-8667<br/>
+                                +234 802-353-8850
                                 </a>
                                 </li>
                             </ul>

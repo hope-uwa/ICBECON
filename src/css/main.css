@@ -101,7 +101,12 @@ html, body {
   .about ul {
     margin-top: 35px;
     font-size: 20px;
-    font-weight: 300; }
+	font-weight: 300; }
+@media(max-width:1000px){
+	.about-back-spin {
+		animation: unset;
+		border-radius: 0% }
+}
 @media(max-width: 600px){
 	.about{
 		padding: 40px 0px;
@@ -154,9 +159,10 @@ html, body {
   .speakers-area {
     margin-top: 70px; }
   .speakers-item {
+	justify-content: center;
     margin-bottom: 20px; }
   .speakers-img {
-    height: 250px;
+    height: 385px;
     background-position: top center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -427,7 +433,7 @@ input[type=checkbox]:focus {
 
 
 .pop_evnt-rgt {
-	width: 76%;
+	width: 87%;
 	border-radius: 7px;
 	font-size: 100%;
 	box-sizing: border-box;

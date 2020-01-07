@@ -20,14 +20,11 @@ const Abstracts = (props) => {
 
                             </p>
 
-                            <p> Submit abstracts here:
-                                <a style={{color: '#be2b65', display: 'inline'}} onClick={()=> props.history.push('/abstract-submission')}> ABSTRACT SUBMISSION LINK </a>
-                            </p>
-                            <p>For more information <a style={{color: '#be2b65'}} onClick={()=> props.history.push('about-conference')} href='#abstract'>Click Here</a></p>
+                            <p> <a style={{color: '#be2b65'}} onClick={()=> props.history.push('/abstract-submission')} href='#abstract'>Click Here to submit Abstract</a></p>
                         </div>
 
                         <div className="col-md-4 offset-md-1 abstract-image">
-                            <img src={paper}/>
+                            <img style={{width: '80%'}} src={paper}/>
                         </div>
 
                     </div>

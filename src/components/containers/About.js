@@ -14,8 +14,8 @@ const About = (props) => {
                             <div className="col-12 about-back-spin"></div>
                             <div className="col-12 about-back-img" >
                                 <div className='about-back-text'>
-                                 20th & 21st <span> May 2020</span> <br/>
-                                 <span style={{fontSize: 24}}>Main Auditorium <br/> University of Lagos</span>
+                                 10th & 11th <span> June 2020</span> <br/>
+                                 <span style={{fontSize: 24}}>Jelili Adebisi Omotola Hall <br/> University of Lagos</span>
                                 </div>
                             </div>
                         </div>

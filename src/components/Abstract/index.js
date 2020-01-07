@@ -25,7 +25,7 @@ const Abstract = () => {
                                         Authors are invited to submit 200-300-word abstracts to the International Construction 
                                         and Built Environment Conference (ICBECONF 2020), with the theme Innovation, Sustainability 
                                         and Transformation in the Built Environment, taking place in Lagos, 
-                                        Nigeria on the <strong>20th to 21st of May, 2020.</strong>
+                                        Nigeria on the <strong>10th to 11th of June, 2020.</strong>
                                         Authors should indicate the topic area from technical paper session topics appropriate for their paper.
 
                                     </p>
@@ -46,33 +46,42 @@ const Abstract = () => {
                                     
                                     <ul>
                                         <li>
-                                            Abstract Submission Deadline: <strong>January 30, 2020</strong>
+                                            Abstract Submission Deadline: <strong>March 30, 2020</strong>
                                         </li>
                                         <li>
-                                            Abstract Acceptance Notification: <strong>February 30, 2020</strong>
+                                            Abstract Acceptance Notification: <strong>April 15, 2020</strong>
                                         </li>
                                         <li>
-                                            Full Paper Submission Deadline: <strong> March 28, 2020</strong>
+                                            Full Paper Submission Deadline: <strong> April 30, 2020</strong>
                                         </li>
                                         <li>
-                                            Full Paper Acceptance and Review Comments Notification: <strong>April 30, 2020</strong>
+                                            Full Paper Acceptance and Review Comments Notification: <strong>May 10, 2020</strong>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             Camera-Ready Final Full Paper Deadline for Inclusion in the Proceedings: <strong>May 15, 2020</strong>
-                                        </li>
+                                        </li> */}
                                     </ul>
-                                <p>
-                                At the conference, all presenters will have 20-30 minutes for a PowerPoint presentation on their paper and must bring their presentation to the conference on a USB flash drive.
+                                    <p>
+                                    All registration fees are to be paid into the following account; <br/>
+                                    <strong>Bank: Access Bank <br/>
+                                     Account Number: 069 023 1342 
+                                     </strong>
                                 </p>
-                            <p>For any submission questions, authors may contact Conference Secretariat:
-                            abc@unilag.edu.ng, <br/>
-                            +234 80500000, <br/> 
-                            +234 80950000, <br/>
-                            Department of Building, <br/>
-                            Faculty of Environmental Sciences, <br/>
-                            University of Lagos, <br/>
-                            info@icbeconf.com
-                            </p>
+
+                                <p><strong>For further enquiries, please contact the <b/>
+                                    Conference Secretariat</strong>: info@icbeconf.com, icbeconf@unilag.edu.ng, <br/>
+                                        +234 805-705-8667<br/>
+                                        +234 803-785-5322 <br/>
+                                        Department of Building, <br/>
+                                        Faculty of Environmental Sciences, <br/>
+                                        University of Lagos, <br/>
+                                        info@icbeconf.com
+                                </p>
+                                <p>NB This conference is organised in partnership with the Nigerian Institute of Building (NIOB), Lagos State Chapter.
+                                </p>
+                                <p>Participant's certificate attracts NIOB CPD points 
+                                </p>
+
                         </div>
                         <div className='col-md-8 col-sm-12'>
                             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdXNInak0upmRBrYIS1fEBX8B3eZi_rgK0dxuJ1eAVxseJyGQ/viewform?embedded=true" width={width} height="4817" frameBorder="0" marginHeight="0" marginWidth="0" title="Publication Form">Loading…</iframe>

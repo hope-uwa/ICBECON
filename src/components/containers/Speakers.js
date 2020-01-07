@@ -80,10 +80,10 @@ class Speakers extends React.Component {
 
                         </div>}
 
-                        <div className="row text-center speakers-area">
+                        <div className="row text-center speakers-area" style={{justifyContent: 'center'}}>
 
                             {/* speakers item */}
-                            <div className="col-md-3 speakers-item">
+                            <div className="col-4 speakers-item " style={{justifyContent: 'center'}}>
                                 <div className="col-12 speakers-img" style={{backgroundImage:`url(${KeySpeaker})`}}>
                                     <div className="shadow">
                                         <a className="btn" href="javascript:;" data-toggle="modal" data-target="#speakerNote"><h4 className="text-center col-12">Speaker Info</h4></a>

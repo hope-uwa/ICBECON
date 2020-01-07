@@ -12,11 +12,13 @@ const RegistrationInfo = () => {
               </div>
               <div className="modal-body" style={{paddingTop: 0}}>
                 <p className='registration-fee'>
-                <span className='registration-fee__value'>Early Bird(Until 15th January):</span> ₦20,000<br/>
-                <span className='registration-fee__value'>Regular : </span> ₦30,000 <br/>
+                <span style={{borderBottom: 'solid 1px #7c7c7de8'}}>Local Participants :</span><br/>
+                <span className='registration-fee__value'>- Early Bird (Until 30th March): </span> ₦20,000<br/>
+                <span className='registration-fee__value'>- Regular/Last Bird : </span> ₦30,000 <br/>
 
-                 <span className='registration-fee__value'>International Participants :</span>$250<br/>
-                <span className='registration-fee__value'>Early Bird : </span>$200<br/>
+                 <span style={{borderBottom: 'solid 1px #7c7c7de8'}}>International Participants :</span><br/>
+                <span className='registration-fee__value'>- Early Bird (Until 30th March): </span>$100<br/>
+                <span className='registration-fee__value'>- Regular/Last Bird : </span>$150<br/>
 
                 <span style={{borderBottom: 'solid 1px #7c7c7de8'}}> Student Registration</span><br/>
                  <span className='registration-fee__value'>Post Graduates :</span>₦10,000<br/>

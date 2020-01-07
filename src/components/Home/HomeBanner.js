@@ -8,7 +8,7 @@ const Banner = () => {
     return(
         
              <div style={{backgroundImage: `url(${senate})`}}>
-             <div style={{ position: 'absolute', height: '100%', width: '100%', color: 'black'}}> hellolskdfjhvoiusfjhdvoisnoi wsdijwnsdj sdiujnosidj soidujnsdc</div>
+             <div style={{ position: 'absolute', height: '100%', width: '100%', color: 'black'}}> </div>
             <div className="container" >
                 <div className="header-area fx-nv">
                 <div className="row ">

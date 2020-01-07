@@ -74,21 +74,20 @@ const AboutPage = (props) => {
                             
                             <h2><strong>Theme: </strong> Innovation, Sustainability and Transformation in the Built Environment </h2>
                             <p>We are delighted to bring to your notice the maiden edition of the annual International Construction and Built 
-                            Environment Conference, with the theme Innovation, Sustainability and Transformation in the Built Environment, 
-                            taking place in Lagos, Nigeria on the <strong>20th to 21st of May, 2020.</strong> It will feature Conference and Expo on Built 
+                            Environment Conference, with the theme: <strong > Innovation, Sustainability and Transformation in the Built Environment</strong>, 
+                            taking place in Lagos, Nigeria on the <strong>10th to 11th of June, 2020.</strong> It will feature Conference and Expo on Built 
                             Environment issues. </p>
                             <p>Our keenly designed agenda by the committee members and professionals will feature 
                             presentations on relevant topics. It will also be a forum for construction organizations, manufacturers 
                             and service providers to present and bring to fore their products, thereby stimulating patronages, 
                             collaborations and global partnering among participants and stakeholders during and after the event. 
                             </p>
-                            <p>The international panel of keynote speakers and presenters will facilitate engaging discussions and learning 
-                            opportunities. This will be an unmatched opportunity to interact and learn from researchers, practitioners, 
-                            business moguls, developers, students and scholars around the globe to bring solutions to built environment 
-                            problems. It is imperative to make your contribution to the event by joining discussions and disseminating your 
-                            research findings. This year’s conference and expo aims to promote sustainability, innovation and transformation 
-                            in the built environment at global level. Abstracts are welcome from the following topics, but not limited to them:
-
+                            <p>The international panel of keynote speakers and presenters will facilitate engaging discussions and 
+                                learning opportunities. This will be an unmatched opportunity to interact and learn from researchers, 
+                                practitioners, business moguls, developers, students and scholars around the globe to bring solutions 
+                                to built environment problems. It is imperative to participate in the event by joining discussions and 
+                                disseminating your research findings. This year's conference and expo aim to promote innovation, 
+                                transformation and sustainability in the built environment at the global level. 
                             </p>
                            
                             <ul>
@@ -104,7 +103,7 @@ const AboutPage = (props) => {
                                         Authors are invited to submit 200-300-word abstracts to the International Construction 
                                         and Built Environment Conference (ICBECONF 2020), with the theme Innovation, Sustainability 
                                         and Transformation in the Built Environment, taking place in Lagos, 
-                                        Nigeria on the <strong>20th to 21st of May, 2020.</strong>
+                                        Nigeria on the <strong>10th to 11th of June, 2020.</strong>
                                         Authors should indicate the topic area from technical paper session topics appropriate for their paper.
 
                                     </p>
@@ -114,9 +113,9 @@ const AboutPage = (props) => {
                                     </p>
                                     <p>For any submission questions, authors may contact Conference Secretariat:
 
-                                        abc@unilag.edu.ng, <br/>
-                                        +234 80500000, <br/> 
-                                        +234 80950000, <br/>
+                                        <br/>
+                                        +234 805-705-8667<br/>
+                                        +234 803-785-5322 <br/>
                                         Department of Building, <br/>
                                         Faculty of Environmental Sciences, <br/>
                                         University of Lagos, <br/>
@@ -127,24 +126,75 @@ const AboutPage = (props) => {
                                     
                                     <ul>
                                         <li>
-                                            Abstract Submission Deadline: <strong>January 30, 2020</strong>
+                                            Abstract Submission Deadline: <strong>March 30, 2020</strong>
                                         </li>
                                         <li>
-                                            Abstract Acceptance Notification: <strong>February 30, 2020</strong>
+                                            Abstract Acceptance Notification: <strong>April 15, 2020</strong>
                                         </li>
                                         <li>
-                                            Full Paper Submission Deadline: <strong> March 28, 2020</strong>
+                                            Full Paper Submission Deadline: <strong> April 30, 2020</strong>
                                         </li>
                                         <li>
-                                            Full Paper Acceptance and Review Comments Notification: <strong>April 30, 2020</strong>
+                                            Full Paper Acceptance and Review Comments Notification: <strong>May 10, 2020</strong>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             Camera-Ready Final Full Paper Deadline for Inclusion in the Proceedings: <strong>May 15, 2020</strong>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 <p>
                                 At the conference, all presenters will have 20-30 minutes for a PowerPoint presentation on their paper and must bring their presentation to the conference on a USB flash drive.
                                 </p>
+
+                                <p>
+                                    All registration fees are to be paid into the following account; <br/>
+                                    <strong>Bank: Access Bank <br/>
+                                     Account Number: 069 023 1342 
+                                     </strong>
+                                </p>
+                                <p>NB This conference is organised in partnership with the Nigerian Institute of Building (NIOB), Lagos State Chapter.
+                                </p>
+                                <p>Participant's certificate attracts NIOB CPD points 
+                                </p>
+
+
+                                <p><strong>Chief Host </strong><br/>
+                                Professor Toyin Ogundipe FAS<br/> 
+                                Vice Chancellor, <br/>
+                                University of Lagos </p>
+
+                                <p><strong>Host  </strong><br/>
+                                Professor Mike Adebamowo FNIA <br/>
+                                Dean, Faculty of Environmental Sciences, University of Lagos 
+                                </p>
+                                <p><strong>Co-Host</strong><br/> 
+                                Professor Olumide Adenuga <br/>
+                                Head, Department of Building,<br/>
+                                Faculty of Environmental Sciences, <br/>
+                                University of Lagos
+                                </p>
+
+                                
+                                <p><strong>Keynote Speaker </strong><br/> 
+                                Professor Deji Rufus Ogunsemi <br/>
+                                Deputy Vice-Chancellor (Academic) <br/>
+                                Federal University of Technology, <br/>
+                                Akure, Ondo. </p>
+
+                                <p><strong>Adviser, LOC </strong><br/> 
+                                Professor Martin Dada <br/>
+                                +234 802 353 8850 <br/>
+                                </p>
+
+                                <p><strong>Chairman, LOC </strong><br/> 
+                                Dr. Olatunji Oladiran <br/>
+                                +234 803 561 3467 
+                                </p>
+
+                                <p><strong>Secretary, LOC </strong><br/>
+                                Dr. Julius Faremi <br/>
+                                +234 803 7855322 
+                                </p>
+
 
                             </div>
                            

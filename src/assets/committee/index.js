@@ -6,7 +6,7 @@ import faremi from './faremi.jpg';
 import folorunsho from './folorunsho.jpg';
 import oladiran from './oladiran.jpg';
 import olumide from './olumide-A-adenuga.jpg';
-import segun from './segun mustapha.jpg';
+import segun from './segun-mustapha.jpg';
 import sotunbo from './sotunbo.jpg';
 import zakariyah from './zakariyah.jpg';
 

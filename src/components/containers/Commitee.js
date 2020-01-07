@@ -9,7 +9,7 @@ import {
     folorunsho,
     oladiran,
     olumide,
-    //segun,
+    segun,
     sotunbo,
     zakariyah
 } from '../../assets/committee'
@@ -21,12 +21,12 @@ const committee = [
     { name: 'Dr Oluranti O. Ajayi', position: ' Committee Member', image: ajayi },
     { name: 'Dr Kudirat I. Zakarriyah',	position: 'Committee Member', image: zakariyah},
     { name: 'Mr Adegboyega S. Sotunbo', position: 'Committee Member', image: sotunbo},
-    { name: 'Mr. Olutayo A. Akinkunmi', position: 'Committee Member', image: akinkunmi },
-    { name: 'Mr. Tunde A. Folorunso', position: 'Committee Member', image: folorunsho},
+    { name: 'Mr. Olutayo A. Akinkunmi', position: 'Committee Member', image: folorunsho },
+    { name: 'Mr. Tunde A. Folorunso', position: 'Committee Member', image: akinkunmi},
     { name: 'Mr Aderemi M. Aderogba', position: 'Committee Member', image: '' },
     { name: 'Mr Ganiu. T. Aregbesola', position: 'Committee Member', image: ''},
     { name: 'Mr Dele Simeon', position: 'Committee Member', image: dele},
-    { name: 'Mr Tijani', position: 'Committee Member', image: ''},
+    { name: 'Mr Tijani Mustapha Segun', position: 'Committee Member', image: segun},
 ]
 const technicalCommittee = [
     { name: 'Prof Koleola T. Odusami', institution:	'University of Lagos, Nigeria', image: '' },
