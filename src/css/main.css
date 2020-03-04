@@ -414,6 +414,7 @@ input[type=checkbox]:focus {
 }
 
 .top_banner {
+	padding-left: 5%;
 	margin-top: 40%;
 }
 
@@ -422,6 +423,7 @@ input[type=checkbox]:focus {
 }
 @media only screen and (max-width: 600px) {
 	.top_banner {
+		padding-left: 0%;
 		text-align: center;
 	}
 	.top_banner h2 {
@@ -520,7 +522,10 @@ input[type=checkbox]:focus {
 }
 
 .registration-fee {
-	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	line-height: 28px!important;
+	font-size: 14px !important;
 	color: #7c7c7d !important;
 	text-align: 'center';
 	
@@ -529,7 +534,7 @@ input[type=checkbox]:focus {
 .registration-fee__value {
 	font-weight: normal;
 	color: #be2b65;
-	font-size: 18px;
+	font-size: 14px;
 }
 
 /*  ******* Breadcrumb ********** */

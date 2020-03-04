@@ -2,14 +2,14 @@ import React from 'react';
 //import RegisterModal from '../containers/Register'
 import RegistrationInfo from '../containers/RegistrationInfoModal'
 //import bannerImg from '../../assets/slider02.jpg'
-import senate from '../../assets/slider01.jpg'
+import senate from '../../assets/senate-building.jpg'
 const Banner = () => {
     
     return(
         
-             <div style={{backgroundImage: `url(${senate})`}}>
+             <div style={{backgroundImage: `url(${senate})`, backgroundSize: 'cover'}}>
              <div style={{ position: 'absolute', height: '100%', width: '100%', color: 'black'}}> </div>
-            <div className="container" >
+            <div className="container" style={{maxWidth: 'fit-content', background: '#00000070'}}>
                 <div className="header-area fx-nv">
                 <div className="row ">
                     <div className="col">
