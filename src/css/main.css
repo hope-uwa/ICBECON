@@ -9,8 +9,8 @@
   100% {
     transform: rotate(360deg); } }
 .main-header {
-  padding-left: 10%;
-  padding-right: 10%; }
+  padding-left: 5%;
+  padding-right: 5%; }
   .main-header li.nav-item {
     margin-left: 25px; }
 
@@ -512,6 +512,13 @@ input[type=checkbox]:focus {
 .pop_evnt-rgt .contact-frm-btn .btn-outline-danger{
   cursor: pointer;
 }
+.btn-danger{
+ background-color: #be2b65 !important;
+}
+
+.register:hover{
+	text-decoration: unset;
+}
 .btn-outline-danger {
   color: #be2b65 !important;
   border-color: #be2b65 !important;
@@ -961,5 +968,22 @@ footer ul {
 	}
 	.abstract-submission {
 		margin-top: unset;
+	}
+}
+.hide-large {
+	display: none
+}
+@media(max-width:1000px){
+	.show-large{
+		display: none;
+	}
+	.hide-large{
+		display: block;
+	}
+}
+
+@media(max-width: 1160px){
+	.main-header li.nav-item{
+		margin-left: 6px;
 	}
 }

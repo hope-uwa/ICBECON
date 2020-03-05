@@ -46,9 +46,34 @@ const Header = (props) => {
                         <li className="nav-item">
                             <a onClick={()=> history.push('/')} className="nav-link">Contact</a>
                         </li>
-                        <li className="nav-item">
-                            <a onClick={()=> history.push('/abstract-submission')} className="nav-link">Submit Abstract</a>
+                       
+                        <li className="nav-item show-large">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary btn-danger" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Submissions
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a onClick={()=> history.push('/abstract-submission')} className="nav-link">Abstract Submission</a>
+                                    <a class="dropdown-item"  target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScbnilRmiP0dkYMdrGBK3on8aSgw3bPlxJg0gkAyhjrfvwdAA/viewform?usp=pp_url">Full Paper Submission</a>
+                                </div>
+                            </div>
                         </li>
+                        <li className="nav-item show-large">
+                            <button class="btn btn-outline-danger" type="button">
+                                <a class='register' style={{color: 'inherit'}}  target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf6MxvIPZlt58z0X9I7pf62ppoUBpGh82VG_vDhmlBNvGfKWQ/viewform?usp=pp_url">Registration</a>
+                            </button>
+                        </li>
+                        <li className="nav-item hide-large">
+                            <a onClick={()=> history.push('/abstract-submission')} className="nav-link">Abstract Submission</a>
+                        </li>
+                        <li className="nav-item hide-large">
+                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScbnilRmiP0dkYMdrGBK3on8aSgw3bPlxJg0gkAyhjrfvwdAA/viewform?usp=pp_url" className="nav-link">Full Paper Submission</a>
+                        </li>
+                        <li className="nav-item hide-large">
+                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf6MxvIPZlt58z0X9I7pf62ppoUBpGh82VG_vDhmlBNvGfKWQ/viewform?usp=pp_url" className="nav-link">Registration</a>
+                        </li>
+                        
+
                     </ul>
                     
                 </div>
